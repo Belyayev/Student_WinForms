@@ -30,3 +30,4 @@ C:\Users\4xgoo\source\repos\WebUI\Student_WPF\EmployeeManager.Wpf\bin\Debug\net5
 C:\Users\4xgoo\source\repos\WebUI\Student_WPF\EmployeeManager.Wpf\bin\Debug\net5.0-windows\EmployeeManager.DataAccess.pdb
 C:\Users\4xgoo\source\repos\WebUI\Student_WPF\EmployeeManager.Wpf\bin\Debug\net5.0-windows\EmployeeManager.ViewModel.pdb
 C:\Users\4xgoo\source\repos\WebUI\Student_WPF\EmployeeManager.Wpf\obj\Debug\net5.0-windows\EmployeeManager.Wpf.csproj.CopyComplete
+C:\Users\4xgoo\source\repos\WebUI\Student_WPF\EmployeeManager.Wpf\obj\Debug\net5.0-windows\App.baml
