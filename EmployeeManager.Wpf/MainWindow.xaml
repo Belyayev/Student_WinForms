@@ -27,7 +27,10 @@
                 <RowDefinition />
             </Grid.RowDefinitions>
             <Button Content="Refresh" Margin="10" />
-            <ListView Grid.Row="1" ItemsSource="{Binding Employees, Mode=OneWay}" SelectedItem="{Binding SelectedEmployee, Mode=TwoWay}" DisplayMemberPath="FirstName" />
+            <ListView Grid.Row="1" 
+                      ItemsSource="{Binding Employees, Mode=OneWay}" 
+                      SelectedItem="{Binding SelectedEmployee, Mode=TwoWay}" 
+                      DisplayMemberPath="FirstName" />
         </Grid>
 
         <!--MainArea-->

@@ -11,6 +11,12 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\EmployeeManager.Common\EmployeeManager.Common.csproj" />
+    <ProjectReference Include="..\EmployeeManager.DataAccess\EmployeeManager.DataAccess.csproj" />
+    <ProjectReference Include="..\EmployeeManager.ViewModel\EmployeeManager.ViewModel.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Resource Include="Images\logo.png" />
   </ItemGroup>
 

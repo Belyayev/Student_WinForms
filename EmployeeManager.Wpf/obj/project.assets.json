@@ -1,11 +1,68 @@
 {
   "version": 3,
   "targets": {
-    "net5.0-windows7.0": {}
+    "net5.0-windows7.0": {
+      "EmployeeManager.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/EmployeeManager.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EmployeeManager.Common.dll": {}
+        }
+      },
+      "EmployeeManager.DataAccess/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "EmployeeManager.Common": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/EmployeeManager.DataAccess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EmployeeManager.DataAccess.dll": {}
+        }
+      },
+      "EmployeeManager.ViewModel/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "EmployeeManager.Common": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/EmployeeManager.ViewModel.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EmployeeManager.ViewModel.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "EmployeeManager.Common/1.0.0": {
+      "type": "project",
+      "path": "../EmployeeManager.Common/EmployeeManager.Common.csproj",
+      "msbuildProject": "../EmployeeManager.Common/EmployeeManager.Common.csproj"
+    },
+    "EmployeeManager.DataAccess/1.0.0": {
+      "type": "project",
+      "path": "../EmployeeManager.DataAccess/EmployeeManager.DataAccess.csproj",
+      "msbuildProject": "../EmployeeManager.DataAccess/EmployeeManager.DataAccess.csproj"
+    },
+    "EmployeeManager.ViewModel/1.0.0": {
+      "type": "project",
+      "path": "../EmployeeManager.ViewModel/EmployeeManager.ViewModel.csproj",
+      "msbuildProject": "../EmployeeManager.ViewModel/EmployeeManager.ViewModel.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0-windows7.0": []
+    "net5.0-windows7.0": [
+      "EmployeeManager.Common >= 1.0.0",
+      "EmployeeManager.DataAccess >= 1.0.0",
+      "EmployeeManager.ViewModel >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\4xgoo\\.nuget\\packages\\": {},
@@ -38,7 +95,17 @@
       "frameworks": {
         "net5.0-windows7.0": {
           "targetAlias": "net5.0-windows",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\4xgoo\\source\\repos\\WebUI\\Student_WPF\\EmployeeManager.Common\\EmployeeManager.Common.csproj": {
+              "projectPath": "C:\\Users\\4xgoo\\source\\repos\\WebUI\\Student_WPF\\EmployeeManager.Common\\EmployeeManager.Common.csproj"
+            },
+            "C:\\Users\\4xgoo\\source\\repos\\WebUI\\Student_WPF\\EmployeeManager.DataAccess\\EmployeeManager.DataAccess.csproj": {
+              "projectPath": "C:\\Users\\4xgoo\\source\\repos\\WebUI\\Student_WPF\\EmployeeManager.DataAccess\\EmployeeManager.DataAccess.csproj"
+            },
+            "C:\\Users\\4xgoo\\source\\repos\\WebUI\\Student_WPF\\EmployeeManager.ViewModel\\EmployeeManager.ViewModel.csproj": {
+              "projectPath": "C:\\Users\\4xgoo\\source\\repos\\WebUI\\Student_WPF\\EmployeeManager.ViewModel\\EmployeeManager.ViewModel.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
