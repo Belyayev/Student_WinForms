@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET5_0;NETCOREAPP
 C:\Users\4xgoo\source\repos\WebUI\Student_WPF\EmployeeManager.Wpf\App.xaml
-11407045341
+21711350866
 
-51480148837
+6-1068372499
 193-1891726104
-MainWindow.xaml;
+controls\HeaderControl.xaml;MainWindow.xaml;
 
-False
+True
 

@@ -20,3 +20,6 @@ C:\Users\4xgoo\source\repos\WebUI\Student_WPF\EmployeeManager.Wpf\obj\Debug\net5
 C:\Users\4xgoo\source\repos\WebUI\Student_WPF\EmployeeManager.Wpf\obj\Debug\net5.0-windows\ref\EmployeeManager.Wpf.dll
 C:\Users\4xgoo\source\repos\WebUI\Student_WPF\EmployeeManager.Wpf\obj\Debug\net5.0-windows\EmployeeManager.Wpf.pdb
 C:\Users\4xgoo\source\repos\WebUI\Student_WPF\EmployeeManager.Wpf\obj\Debug\net5.0-windows\EmployeeManager.Wpf.genruntimeconfig.cache
+C:\Users\4xgoo\source\repos\WebUI\Student_WPF\EmployeeManager.Wpf\obj\Debug\net5.0-windows\controls\HeaderControl.baml
+C:\Users\4xgoo\source\repos\WebUI\Student_WPF\EmployeeManager.Wpf\obj\Debug\net5.0-windows\controls\HeaderControl.g.cs
+C:\Users\4xgoo\source\repos\WebUI\Student_WPF\EmployeeManager.Wpf\obj\Debug\net5.0-windows\GeneratedInternalTypeHelper.g.cs
