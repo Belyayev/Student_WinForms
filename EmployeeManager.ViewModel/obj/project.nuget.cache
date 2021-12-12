@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DA1NBO8ejeRreuSimiUAXtiOQYu+uYf7EUkIsWyhI054M6SSb8FjPG7DPZx93W9+oNdF+uiMtLH73DQU8IUrhA==",
+  "dgSpecHash": "i6SUIwbcock5fohPjjLlDmSXdEksnT7TiVZr+R5Hrcq0Qrsw6hvByUhm7jAvOMnxyixHgi+H52VHMTvsYDxozg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\4xgoo\\source\\repos\\WebUI\\Student_WinUI\\EmployeeManager.ViewModel\\EmployeeManager.ViewModel.csproj",
+  "projectFilePath": "C:\\Users\\4xgoo\\source\\repos\\WebUI\\Student_WPF\\EmployeeManager.ViewModel\\EmployeeManager.ViewModel.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
