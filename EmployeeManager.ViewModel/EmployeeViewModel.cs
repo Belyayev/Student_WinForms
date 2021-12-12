@@ -43,6 +43,19 @@ namespace EmployeeManager.ViewModel
             }
         }
 
+        public DateTime EntryDateTime
+        {
+            get => _employee.EntryDate.DateTime;
+            set
+            {
+                if (_employee.EntryDate != value)
+                {
+                    _employee.EntryDate = value;
+                    RaisePropertyChanged();
+                }
+            }
+        }
+
         public int JobRoleId
         {
             get => _employee.JobRoleId;
