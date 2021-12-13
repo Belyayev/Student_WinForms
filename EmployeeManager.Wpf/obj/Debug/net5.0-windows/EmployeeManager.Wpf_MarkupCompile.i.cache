@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-C:\Users\4xgoo\source\repos\WebUI\Student_WPF\EmployeeManager.Wpf\obj\Debug\net5.0-windows\
+C:\Users\4xgoo\source\repos\WebUI\Student_WinForms\EmployeeManager.Wpf\obj\Debug\net5.0-windows\
 EmployeeManager.Wpf
 none
 false
 TRACE;DEBUG;NET;NET5_0;NETCOREAPP
-C:\Users\4xgoo\source\repos\WebUI\Student_WPF\EmployeeManager.Wpf\App.xaml
+C:\Users\4xgoo\source\repos\WebUI\Student_WinForms\EmployeeManager.Wpf\App.xaml
 21711350866
 
 6-1068372499
-196-138345501
+196103382041
 controls\HeaderControl.xaml;MainWindow.xaml;
 
 True

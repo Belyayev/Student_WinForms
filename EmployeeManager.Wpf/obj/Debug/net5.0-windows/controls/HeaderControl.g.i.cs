@@ -52,7 +52,7 @@ namespace EmployeeManager.Wpf.controls {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/EmployeeManager.Wpf;component/controls/headercontrol.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/EmployeeManager.Wpf;V1.0.0.0;component/controls/headercontrol.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\controls\HeaderControl.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
