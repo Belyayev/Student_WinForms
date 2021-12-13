@@ -1,1 +1,1 @@
-C:\Users\4xgoo\source\repos\WebUI\Student_WPF\EmployeeManager.WinUI\EmployeeManager.WinUI (Package)\EmployeeManager.WinUI (Package).wapproj;x86
+C:\Users\4xgoo\source\repos\WebUI\Student_WinForms\EmployeeManager.WinUI\EmployeeManager.WinUI (Package)\EmployeeManager.WinUI (Package).wapproj;x86

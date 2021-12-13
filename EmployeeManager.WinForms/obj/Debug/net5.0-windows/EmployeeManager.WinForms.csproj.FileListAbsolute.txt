@@ -18,3 +18,10 @@ C:\Users\4xgoo\source\repos\WebUI\Student_WinForms\EmployeeManager.WinForms\obj\
 C:\Users\4xgoo\source\repos\WebUI\Student_WinForms\EmployeeManager.WinForms\obj\Debug\net5.0-windows\EmployeeManager.WinForms.genruntimeconfig.cache
 C:\Users\4xgoo\source\repos\WebUI\Student_WinForms\EmployeeManager.WinForms\obj\Debug\net5.0-windows\EmployeeManager.WinForms.Controls.HeaderControl.resources
 C:\Users\4xgoo\source\repos\WebUI\Student_WinForms\EmployeeManager.WinForms\obj\Debug\net5.0-windows\EmployeeManager.WinForms.Properties.Resources.resources
+C:\Users\4xgoo\source\repos\WebUI\Student_WinForms\EmployeeManager.WinForms\bin\Debug\net5.0-windows\EmployeeManager.Common.dll
+C:\Users\4xgoo\source\repos\WebUI\Student_WinForms\EmployeeManager.WinForms\bin\Debug\net5.0-windows\EmployeeManager.DataAccess.dll
+C:\Users\4xgoo\source\repos\WebUI\Student_WinForms\EmployeeManager.WinForms\bin\Debug\net5.0-windows\EmployeeManager.ViewModel.dll
+C:\Users\4xgoo\source\repos\WebUI\Student_WinForms\EmployeeManager.WinForms\bin\Debug\net5.0-windows\EmployeeManager.Common.pdb
+C:\Users\4xgoo\source\repos\WebUI\Student_WinForms\EmployeeManager.WinForms\bin\Debug\net5.0-windows\EmployeeManager.DataAccess.pdb
+C:\Users\4xgoo\source\repos\WebUI\Student_WinForms\EmployeeManager.WinForms\bin\Debug\net5.0-windows\EmployeeManager.ViewModel.pdb
+C:\Users\4xgoo\source\repos\WebUI\Student_WinForms\EmployeeManager.WinForms\obj\Debug\net5.0-windows\EmployeeManager.WinForms.csproj.CopyComplete

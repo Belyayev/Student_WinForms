@@ -29,6 +29,7 @@ namespace EmployeeManager.WinForms
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.pnlHeader = new System.Windows.Forms.Panel();
             this.headerControl = new EmployeeManager.WinForms.Controls.HeaderControl();
             this.pnlNavigation = new System.Windows.Forms.Panel();
@@ -38,16 +39,18 @@ namespace EmployeeManager.WinForms
             this.pnlMainArea = new System.Windows.Forms.Panel();
             this.btnSave = new System.Windows.Forms.Button();
             this.chkIsCoffeeDrinker = new System.Windows.Forms.CheckBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.cboJobRole = new System.Windows.Forms.ComboBox();
+            this.dtpEntryDate = new System.Windows.Forms.DateTimePicker();
             this.txtFirstName = new System.Windows.Forms.TextBox();
             this.lblJobRole = new System.Windows.Forms.Label();
             this.lblEntryDate = new System.Windows.Forms.Label();
             this.lblFirstName = new System.Windows.Forms.Label();
+            this.employeeBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.pnlHeader.SuspendLayout();
             this.pnlNavigation.SuspendLayout();
             this.pnlRefresh.SuspendLayout();
             this.pnlMainArea.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.employeeBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // pnlHeader
@@ -56,7 +59,7 @@ namespace EmployeeManager.WinForms
             this.pnlHeader.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnlHeader.Location = new System.Drawing.Point(0, 0);
             this.pnlHeader.Name = "pnlHeader";
-            this.pnlHeader.Size = new System.Drawing.Size(1127, 87);
+            this.pnlHeader.Size = new System.Drawing.Size(1244, 87);
             this.pnlHeader.TabIndex = 0;
             // 
             // headerControl
@@ -65,7 +68,7 @@ namespace EmployeeManager.WinForms
             this.headerControl.Dock = System.Windows.Forms.DockStyle.Fill;
             this.headerControl.Location = new System.Drawing.Point(0, 0);
             this.headerControl.Name = "headerControl";
-            this.headerControl.Size = new System.Drawing.Size(1127, 87);
+            this.headerControl.Size = new System.Drawing.Size(1244, 87);
             this.headerControl.TabIndex = 0;
             // 
             // pnlNavigation
@@ -75,7 +78,7 @@ namespace EmployeeManager.WinForms
             this.pnlNavigation.Dock = System.Windows.Forms.DockStyle.Left;
             this.pnlNavigation.Location = new System.Drawing.Point(0, 87);
             this.pnlNavigation.Name = "pnlNavigation";
-            this.pnlNavigation.Size = new System.Drawing.Size(194, 612);
+            this.pnlNavigation.Size = new System.Drawing.Size(194, 730);
             this.pnlNavigation.TabIndex = 1;
             // 
             // lsbEmployees
@@ -85,7 +88,7 @@ namespace EmployeeManager.WinForms
             this.lsbEmployees.ItemHeight = 25;
             this.lsbEmployees.Location = new System.Drawing.Point(0, 60);
             this.lsbEmployees.Name = "lsbEmployees";
-            this.lsbEmployees.Size = new System.Drawing.Size(194, 552);
+            this.lsbEmployees.Size = new System.Drawing.Size(194, 670);
             this.lsbEmployees.TabIndex = 1;
             // 
             // pnlRefresh
@@ -112,8 +115,8 @@ namespace EmployeeManager.WinForms
             // 
             this.pnlMainArea.Controls.Add(this.btnSave);
             this.pnlMainArea.Controls.Add(this.chkIsCoffeeDrinker);
-            this.pnlMainArea.Controls.Add(this.comboBox1);
-            this.pnlMainArea.Controls.Add(this.dateTimePicker1);
+            this.pnlMainArea.Controls.Add(this.cboJobRole);
+            this.pnlMainArea.Controls.Add(this.dtpEntryDate);
             this.pnlMainArea.Controls.Add(this.txtFirstName);
             this.pnlMainArea.Controls.Add(this.lblJobRole);
             this.pnlMainArea.Controls.Add(this.lblEntryDate);
@@ -121,13 +124,13 @@ namespace EmployeeManager.WinForms
             this.pnlMainArea.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnlMainArea.Location = new System.Drawing.Point(194, 87);
             this.pnlMainArea.Name = "pnlMainArea";
-            this.pnlMainArea.Size = new System.Drawing.Size(933, 612);
+            this.pnlMainArea.Size = new System.Drawing.Size(1050, 730);
             this.pnlMainArea.TabIndex = 2;
             // 
             // btnSave
             // 
             this.btnSave.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.btnSave.Location = new System.Drawing.Point(22, 555);
+            this.btnSave.Location = new System.Drawing.Point(22, 673);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(118, 36);
             this.btnSave.TabIndex = 7;
@@ -144,22 +147,22 @@ namespace EmployeeManager.WinForms
             this.chkIsCoffeeDrinker.Text = "Is Coffee Drinker";
             this.chkIsCoffeeDrinker.UseVisualStyleBackColor = true;
             // 
-            // comboBox1
+            // cboJobRole
             // 
-            this.comboBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.cboJobRole.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(22, 178);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(899, 33);
-            this.comboBox1.TabIndex = 5;
+            this.cboJobRole.FormattingEnabled = true;
+            this.cboJobRole.Location = new System.Drawing.Point(22, 178);
+            this.cboJobRole.Name = "cboJobRole";
+            this.cboJobRole.Size = new System.Drawing.Size(1016, 33);
+            this.cboJobRole.TabIndex = 5;
             // 
-            // dateTimePicker1
+            // dtpEntryDate
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(22, 109);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(523, 31);
-            this.dateTimePicker1.TabIndex = 4;
+            this.dtpEntryDate.Location = new System.Drawing.Point(22, 109);
+            this.dtpEntryDate.Name = "dtpEntryDate";
+            this.dtpEntryDate.Size = new System.Drawing.Size(523, 31);
+            this.dtpEntryDate.TabIndex = 4;
             // 
             // txtFirstName
             // 
@@ -167,7 +170,7 @@ namespace EmployeeManager.WinForms
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtFirstName.Location = new System.Drawing.Point(22, 41);
             this.txtFirstName.Name = "txtFirstName";
-            this.txtFirstName.Size = new System.Drawing.Size(899, 31);
+            this.txtFirstName.Size = new System.Drawing.Size(1016, 31);
             this.txtFirstName.TabIndex = 3;
             // 
             // lblJobRole
@@ -202,7 +205,7 @@ namespace EmployeeManager.WinForms
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(1127, 699);
+            this.ClientSize = new System.Drawing.Size(1244, 817);
             this.Controls.Add(this.pnlMainArea);
             this.Controls.Add(this.pnlNavigation);
             this.Controls.Add(this.pnlHeader);
@@ -214,6 +217,7 @@ namespace EmployeeManager.WinForms
             this.pnlRefresh.ResumeLayout(false);
             this.pnlMainArea.ResumeLayout(false);
             this.pnlMainArea.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.employeeBindingSource)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -228,13 +232,14 @@ namespace EmployeeManager.WinForms
         private System.Windows.Forms.Panel pnlMainArea;
         private System.Windows.Forms.Button btnSave;
         private System.Windows.Forms.CheckBox chkIsCoffeeDrinker;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.ComboBox cboJobRole;
+        private System.Windows.Forms.DateTimePicker dtpEntryDate;
         private System.Windows.Forms.TextBox txtFirstName;
         private System.Windows.Forms.Label lblJobRole;
         private System.Windows.Forms.Label lblEntryDate;
         private System.Windows.Forms.Label lblFirstName;
         private Controls.HeaderControl headerControl;
+        private System.Windows.Forms.BindingSource employeeBindingSource;
     }
 }
 
