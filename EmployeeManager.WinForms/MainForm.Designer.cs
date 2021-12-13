@@ -110,6 +110,7 @@ namespace EmployeeManager.WinForms
             this.btnRefresh.TabIndex = 0;
             this.btnRefresh.Text = "Refresh";
             this.btnRefresh.UseVisualStyleBackColor = true;
+            this.btnRefresh.Click += new System.EventHandler(this.btnRefresh_Click);
             // 
             // pnlMainArea
             // 
@@ -151,6 +152,7 @@ namespace EmployeeManager.WinForms
             // 
             this.cboJobRole.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.cboJobRole.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboJobRole.FormattingEnabled = true;
             this.cboJobRole.Location = new System.Drawing.Point(22, 178);
             this.cboJobRole.Name = "cboJobRole";
