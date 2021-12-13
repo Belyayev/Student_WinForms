@@ -28,10 +28,14 @@ namespace EmployeeManager.WinForms
 
         }
 
-        
+
 
         private void btnSave_Click(object sender, EventArgs e)
         {
+            if (employeeBindingSource.Current is EmployeeViewModel employeeViewModel && employeeViewModel.CanSave)
+            {
+                employeeViewModel.Save();
+            }
         }
 
         private void btnRefresh_Click(object sender, EventArgs e)
